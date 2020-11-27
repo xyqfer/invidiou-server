@@ -2,6 +2,7 @@
   "name": "invidiou-server",
   "version": 2,
   "routes": [
+    {"src": "/archive?(.*)","dest": "https://ibdkopi6vn.avosapps.us/archive?$1"},
     {"src": "/(.*)","dest": "https://invidious.site/$1"}
   ]
 }
