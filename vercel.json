@@ -4,6 +4,7 @@
   "routes": [
     {"src": "/archives\\\\?(.*)","dest": "https://ibdkopi6vn.avosapps.us/archives?$1"},
     {"src": "/archive\\\\?(.*)","dest": "https://ibdkopi6vn.avosapps.us/archive?$1"},
+    {"src": "/search\\\\?(.*)","dest": "https://www.google.com.hk/search?$1"},
     {"src": "/(.*)","dest": "https://invidious.site/$1"}
   ]
 }
