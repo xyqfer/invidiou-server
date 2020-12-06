@@ -1,6 +1,9 @@
 {
   "name": "invidiou-server",
   "version": 2,
+  "github": {
+    "silent": true
+  },
   "routes": [
     {"src": "/archives\\\\?(.*)","dest": "https://ibdkopi6vn.avosapps.us/archives?$1"},
     {"src": "/archive\\\\?(.*)","dest": "https://ibdkopi6vn.avosapps.us/archive?$1"},
