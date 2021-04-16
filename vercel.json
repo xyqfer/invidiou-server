@@ -10,7 +10,6 @@
     {"src": "/search\\\\?(.*)","dest": "https://www.google.com.hk/search?$1"},
     {"src": "/notes\\\\?(.*)","dest": "https://ibdkopi6vn.avosapps.us/notes?$1"},
     {"src": "/note","dest": "https://ibdkopi6vn.avosapps.us/note"},
-    {"src": "/apiws/(?<name>[^/]+)","dest": "https://$name.web.telegram.org/apiws"},
     {"src": "/apiw1/(?<name>[^/]+)","dest": "https://$name.web.telegram.org/apiw1"},
     {"src": "/(.*)","dest": "https://invidious.snopyta.org/$1"}
   ]
